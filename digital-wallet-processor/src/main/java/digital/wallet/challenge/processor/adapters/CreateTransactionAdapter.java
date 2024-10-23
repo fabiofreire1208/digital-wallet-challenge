@@ -7,7 +7,6 @@ import digital.wallet.challenge.core.persistence.AccountRepositoryPort;
 import digital.wallet.challenge.core.persistence.TransactionRepositoryPort;
 import digital.wallet.challenge.core.utils.JsonUtil;
 import digital.wallet.challenge.domain.Account;
-import digital.wallet.challenge.domain.Client;
 import digital.wallet.challenge.domain.Transaction;
 import digital.wallet.challenge.domain.enums.TransactionStatus;
 import org.springframework.beans.factory.annotation.Autowired;

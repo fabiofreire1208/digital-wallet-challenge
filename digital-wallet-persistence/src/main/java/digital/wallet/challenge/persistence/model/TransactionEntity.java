@@ -34,7 +34,8 @@ public class TransactionEntity {
     private TransactionType transactionType;
 
     @Enumerated(EnumType.STRING)
-    private TransactionStatus transactionStatus;
+    @Column(name = "transaction_status")
+    private TransactionStatus status;
 
     private LocalDateTime transactionCreationDate = LocalDateTime.now();
 

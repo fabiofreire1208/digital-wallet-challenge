@@ -17,5 +17,5 @@ public class TransactionDto {
     private AccountDto accountTo;
     private Double amount;
     private TransactionType transactionType;
-    private TransactionStatus transactionStatus;
+    private TransactionStatus status;
 }
